@@ -1,0 +1,408 @@
+body{
+    background-color: #ebebeb;
+    max-width: 1002px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    min-height: 544px;
+}
+.blå {
+    background: #C7DDEA;
+    width: 50%;
+    background-image: url(./images/family.png);
+    background-size: 279px;
+    background-repeat: no-repeat;
+    background-position: bottom right 20px;
+}
+.blå > h1 {
+    position: relative;
+    font-family: "Frank Ruhl Libre";
+    left: 120px;
+    max-width: 300px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+.blå > p {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.nodollar {
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 258px;
+}
+.dollar {
+    color: #FFFFFF;
+    position: relative;
+    left: 295px;
+    bottom: 48px;
+}
+.button1 {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 13px 40px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    font-family: "Fira Sans";
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    left: 120px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.gulorange {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.gulorange > article > h3 {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+.gulorange > article > p {
+    font-family: "Fira Sans";
+    color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+.orange{
+    height: 50%;
+    background: #F17949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gul {
+    height: 50%;
+    background: #FAB131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu > ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px 0px;
+}
+.menu > ul > li {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    padding: 23px 60px;
+}
+.fade {
+    opacity: 0.4;
+}
+.grå{
+    background: #A9A19E;
+    min-height: 612px;
+    max-height: 612px;
+}
+.grå h2 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    max-width: 314px;
+    max-height: 140px;
+    margin-top: 0;
+}
+.grå > p {
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+    width: 280px;
+    height: 237px;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.button2 {
+    font-family: "Fira Sans";
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 100px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    padding: 13px 40px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    left: 110px;
+    top: 135px;
+}
+.bildkort1 {
+    position: relative;
+    min-width: 256px;
+    min-height: 308px;
+    left: 71px;
+}
+.kortfärg1 {
+    position: relative;
+    max-width: 236px;
+    min-height: 150px;
+    bottom: 940px;
+    left: 101px;
+    border-radius: 4px;
+    background: #C7DDEA;
+}
+.kortfärg1 > img{
+    max-width: 236px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 75px;
+    bottom: 0px;
+}
+.bildkort2 {
+    position: relative;
+    min-width: 256px;
+    min-height: 308px;
+    left: 371px;
+    bottom: 308px;
+}
+.kortfärg2 {
+    position: relative;
+    max-width: 236px;
+    min-height: 150px;
+    bottom: 1090px;
+    left: 401px;
+    background: #FAB131;
+    border-radius: 4px;
+}
+.kortfärg2 > img{
+    width: 40%;
+    max-height: 135px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+}
+.bildkort3 {
+    position: relative;
+    min-width: 256px;
+    min-height: 308px;
+    left: 661px;
+    bottom: 616px;
+}
+.kortfärg3 {
+    background: #F17949;
+    position: relative;
+    max-width: 236px;
+    min-height: 150px;
+    bottom: 1240px;
+    left: 691px;
+    border-radius: 4px;
+}
+.kortfärg3 > img{
+    width: 60%;
+    max-height: 135px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 45px;
+    bottom: 0;
+}
+.korttext{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background: white;
+    width: 256px;
+    height: 270px;
+    border-radius: 2%;
+}
+.korttext > h3{
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+}
+.korttext > p{
+    position: absolute;
+    bottom: 0px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+}
+.storgul {
+    background: #FAB131;
+    min-height: 612px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.storgul > h1{
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-size: 45px;
+    display: flex;
+    letter-spacing: -0.02em;
+    color: white;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 80px;
+}
+.storgul > p{
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 20px;
+    max-width: 442px;
+}
+.nummerlåda {
+    display: grid;
+    grid-template-rows: repeat(2, 340px);
+    grid-template-columns: repeat(3, 334px);
+    text-align: center;
+}
+.låda1 {
+    background-color: #C7DDEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.låda3 {
+    background-color: #EBEBEB;
+}
+.låda5 {
+    background-color: #F17949;
+}
+.låda2, .låda4, .låda6 {
+    background-color: #FFFFFF;
+}
+.nr {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    position: relative;
+    top: 15px;
+    right: 120px;
+}
+.nummerlåda p {
+    max-width: 210px;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+.låda1 h1 {
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 5px;
+}
+.låda2 p {
+    top: 85px;
+    left: 60px;
+}
+.låda3 p {
+    top: 85px;
+    left: 70px;
+}
+.låda4 p {
+    top: 85px;
+    left: 65px;
+}
+.låda5 p {
+    top: 85px;
+    left: 65px;
+}
+.låda6 p {
+    top: 85px;
+    left: 65px;
+}
+aside {
+    background: #A9A19E;
+    min-height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside a {
+    text-decoration: none;
+    color: black;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+aside img {
+    font-size: 30px;
+    font: larger;
+    position: relative;
+    bottom: 15px;
+    left: 70px;
+}
+footer {
+    background: #777574;
+    min-height: 340px;
+}
